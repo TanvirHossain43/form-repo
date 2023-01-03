@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Your name:
+            <input id="text" type="text" placeholder="Your name">
+        </label>
+        <label for="email">Your email:
+            <input id="email" type="email" placeholder="Your email">
+        </label>
+        <label for="password">Enter Your Password:
+            <input id="password" type="password" placeholder="Your password">
+        </label>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male
+            </label>
+            <label for="Female">
+                <input type="radio" name="gender" id="female">Female
+            </label>
+            <label for="none">
+                <input type="radio" name="gender" id="none">None
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>select your favourite subject</legend>
+            <label for="physics">
+                <input type="checkbox" name="subject" id="physics">physics
+            </label>
+            <label for="chemistry">
+                <input type="checkbox" name="subject" id="chemistry">chemistry
+            </label>
+            <label for="math">
+                <input type="checkbox" name="subject" id="math">math
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>special instruction</legend>
+            <textarea name="" id="" cols="30" rows="6"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        
+    </form> 
+
+</body>
+</html>
